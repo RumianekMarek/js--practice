@@ -1,8 +1,9 @@
 var computerMove, playerMove;
 
 computerMove = kpnCheck(randomNumber(3));
-playerMove = 'papier';
+playerMove = kpnCheck(prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.'));
 
 
 
-printMessage('Mój ruch: ' + (computerMove));
+printMessage('ruch komputera: ' + (computerMove));
+printMessage('ruch gracza: ' + (playerMove));

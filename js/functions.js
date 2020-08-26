@@ -19,8 +19,8 @@ function kpnCheck(number){
 		hand = 'kamień';
 	} else if (number == '2'){
 		hand = 'papier';
-	} else { 
+	} else if (number == '3'){ 
 		hand = 'nożyce'
-	}
+	} else hand = 'nieznany ruch'
 	return hand
 }
