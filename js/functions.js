@@ -7,3 +7,8 @@ function printMessage(msg){
 function clearMessages(){
 	document.getElementById('messages').innerHTML = '';
 }
+
+function randomNumber(maxNumber){
+    let number = Math.floor(Math.random() * 3);
+    return number + 1
+}

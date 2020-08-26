@@ -1,4 +1,5 @@
 var computerMove, playerMove;
-computerMove = 'kamień';
+
+computerMove = randomNumber(3);
 playerMove = 'papier';
-printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to ' + playerMove + ' wygrywasz');
+printMessage('Wylosowana Liczba to ' + (computerMove));
