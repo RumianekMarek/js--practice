@@ -1,5 +1,8 @@
 var computerMove, playerMove;
 
-computerMove = randomNumber(3);
+computerMove = kpnCheck(randomNumber(3));
 playerMove = 'papier';
-printMessage('Wylosowana Liczba to ' + (computerMove));
+
+
+
+printMessage('Mój ruch: ' + (computerMove));
