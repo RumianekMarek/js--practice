@@ -24,3 +24,23 @@ function kpnCheck(number){
 	} else hand = 'nieznany ruch'
 	return hand
 }
+
+function winCheck(player, computer){
+	let message = '';
+	if (player == computer){
+		message = 'remis';
+	} else 	if (player == 'papier'){
+		if (computer == 'kamień'){
+			message = 'wygrana';
+		} else message = 'przegrana';
+	} else 	if (player == 'kamień'){
+		if (computer == 'nożyce'){
+			message = 'wygrana';
+		} else message = 'przegrana';
+	} else 	if (player == 'nożyce'){
+		if (computer == 'papier'){
+			message = 'wygrana';
+		} else message = 'przegrana';
+	}
+	return message
+}

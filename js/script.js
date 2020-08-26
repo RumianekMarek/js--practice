@@ -7,3 +7,5 @@ playerMove = kpnCheck(prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: noż
 
 printMessage('ruch komputera: ' + (computerMove));
 printMessage('ruch gracza: ' + (playerMove));
+
+printMessage(winCheck(playerMove, computerMove));
