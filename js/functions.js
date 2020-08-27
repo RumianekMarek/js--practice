@@ -44,3 +44,4 @@ function winCheck(player, computer){
 	}
 	return message
 }
+
